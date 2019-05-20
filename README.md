@@ -1,5 +1,7 @@
 # CEF chromium framework for mIRC
 
+<img src="https://github.com/CymatiCorp/chrome-for-mirc/blob/master/chromium.png" />
+
 Acquired from project home at sourceforge:
 https://sourceforge.net/projects/mchef/
 
