@@ -1,0 +1,19 @@
+LIBRARY    "mChef"
+EXPORTS
+     
+	Attach
+	ChefBrowser
+	ClearCache
+	Detach
+	ExecScript
+	IsAttached
+	LoadDll
+	Mark
+	mChef_Init
+	Navigate
+	PrintWindowView
+	SetFlags
+	TitleBar
+	UnloadDll
+	Version
+

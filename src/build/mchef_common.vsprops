@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="mchef_common"
+	>
+	<Tool
+		Name="VCPostBuildEventTool"
+		Description="Copying CEF binaries to current configuration"
+		CommandLine="copy /B /Y &quot;$(SolutionDir)src\ThirdParty\cef\build\$(ConfigurationName)\icudt38.dll&quot; &quot;$(SolutionDir)$(ConfigurationName)&quot;&#x0D;&#x0A;copy /B /Y &quot;$(SolutionDir)src\ThirdParty\cef\build\$(ConfigurationName)\libcef.dll&quot; &quot;$(SolutionDir)$(ConfigurationName)&quot;&#x0D;&#x0A;"
+	/>
+	<Tool
+		Name="VCPreBuildEventTool"
+		Description="Running version tool"
+		CommandLine="&quot;$(SolutionDir)$(ConfigurationName)\ver.exe&quot; &quot;$(ProjectDir)Chef.h&quot;"
+	/>
+</VisualStudioPropertySheet>

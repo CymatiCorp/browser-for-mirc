@@ -1,0 +1,132 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mChef", "src\mChef\mChef.vcproj", "{29AA2BB3-5DD2-46FE-B1B9-03CEB7E74144}"
+	ProjectSection(ProjectDependencies) = postProject
+		{524AFB38-383C-48C1-A302-90C14FE7886B} = {524AFB38-383C-48C1-A302-90C14FE7886B}
+		{74E8FD64-950C-425E-B4DF-82ED0BB57FFF} = {74E8FD64-950C-425E-B4DF-82ED0BB57FFF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VersionTool", "src\Tools\VersionTool\VersionTool.vcproj", "{524AFB38-383C-48C1-A302-90C14FE7886B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Deploy", "src\Tools\Deploy\Deploy.vcproj", "{1BD3D7D9-A2D1-497C-A235-19696D162E66}"
+	ProjectSection(ProjectDependencies) = postProject
+		{29AA2BB3-5DD2-46FE-B1B9-03CEB7E74144} = {29AA2BB3-5DD2-46FE-B1B9-03CEB7E74144}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Third Party", "Third Party", "{5B9F53DA-C7CE-4B8F-B25F-AE80FFBF10A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{99D5EB91-3875-4C07-8870-0814C70DDAEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CEF", "CEF", "{A3246FF9-A597-4B7D-A6D9-14A5D6D72869}"
+	ProjectSection(SolutionItems) = preProject
+		src\ThirdParty\cef\LICENSE.txt = src\ThirdParty\cef\LICENSE.txt
+		src\ThirdParty\cef\README.txt = src\ThirdParty\cef\README.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{B3248254-1A95-4ED5-A5B4-B556BAC88287}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lbmg", "src\ThirdParty\lbmg\lbmg.vcproj", "{74E8FD64-950C-425E-B4DF-82ED0BB57FFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lpng", "lpng", "{44C3C3E9-05E3-4C88-8812-64B5681BBE9C}"
+	ProjectSection(SolutionItems) = preProject
+		src\ThirdParty\lpng\LICENSE = src\ThirdParty\lpng\LICENSE
+		src\ThirdParty\lpng\README = src\ThirdParty\lpng\README
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{23A7F338-7A32-4EC0-B5FD-1AD5E59B4548}"
+	ProjectSection(SolutionItems) = preProject
+		src\ThirdParty\lpng\png.h = src\ThirdParty\lpng\png.h
+		src\ThirdParty\lpng\pngconf.h = src\ThirdParty\lpng\pngconf.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zlib", "zlib", "{054DA7DE-6E9E-40DF-A2E9-8EA68E15426C}"
+	ProjectSection(SolutionItems) = preProject
+		src\ThirdParty\zlib\README = src\ThirdParty\zlib\README
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{87184500-EA71-45E9-B2D7-4B6C0AD1563B}"
+	ProjectSection(SolutionItems) = preProject
+		src\ThirdParty\zlib\crc32.h = src\ThirdParty\zlib\crc32.h
+		src\ThirdParty\zlib\deflate.h = src\ThirdParty\zlib\deflate.h
+		src\ThirdParty\zlib\inffast.h = src\ThirdParty\zlib\inffast.h
+		src\ThirdParty\zlib\inffixed.h = src\ThirdParty\zlib\inffixed.h
+		src\ThirdParty\zlib\inflate.h = src\ThirdParty\zlib\inflate.h
+		src\ThirdParty\zlib\inftrees.h = src\ThirdParty\zlib\inftrees.h
+		src\ThirdParty\zlib\trees.h = src\ThirdParty\zlib\trees.h
+		src\ThirdParty\zlib\zconf.h = src\ThirdParty\zlib\zconf.h
+		src\ThirdParty\zlib\zlib.h = src\ThirdParty\zlib\zlib.h
+		src\ThirdParty\zlib\zutil.h = src\ThirdParty\zlib\zutil.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{B2001935-BDFE-4A45-9B3B-1C0596A8D249}"
+	ProjectSection(SolutionItems) = preProject
+		src\ThirdParty\cef\include\cef.h = src\ThirdParty\cef\include\cef.h
+		src\ThirdParty\cef\include\cef_capi.h = src\ThirdParty\cef\include\cef_capi.h
+		src\ThirdParty\cef\include\cef_export.h = src\ThirdParty\cef\include\cef_export.h
+		src\ThirdParty\cef\include\cef_nplugin.h = src\ThirdParty\cef\include\cef_nplugin.h
+		src\ThirdParty\cef\include\cef_nplugin_capi.h = src\ThirdParty\cef\include\cef_nplugin_capi.h
+		src\ThirdParty\cef\include\cef_ptr.h = src\ThirdParty\cef\include\cef_ptr.h
+		src\ThirdParty\cef\include\cef_string.h = src\ThirdParty\cef\include\cef_string.h
+		src\ThirdParty\cef\include\cef_string_list.h = src\ThirdParty\cef\include\cef_string_list.h
+		src\ThirdParty\cef\include\cef_string_map.h = src\ThirdParty\cef\include\cef_string_map.h
+		src\ThirdParty\cef\include\cef_types.h = src\ThirdParty\cef\include\cef_types.h
+		src\ThirdParty\cef\include\cef_types_win.h = src\ThirdParty\cef\include\cef_types_win.h
+		src\ThirdParty\cef\include\cef_win.h = src\ThirdParty\cef\include\cef_win.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{5895FB9D-8234-4E84-A704-3FB849561343}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Genscripts mIRC Library", "Genscripts mIRC Library", "{044D0C73-AB41-4652-B7FB-7EB2D5CBABE1}"
+	ProjectSection(SolutionItems) = preProject
+		src\mlib\Console.hpp = src\mlib\Console.hpp
+		src\mlib\Error.hpp = src\mlib\Error.hpp
+		src\mlib\mlib.hpp = src\mlib\mlib.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mIRC", "mIRC", "{0031810E-F08C-4D50-81E6-F7C642CA4BB0}"
+	ProjectSection(SolutionItems) = preProject
+		src\mlib\mIRC\Map.hpp = src\mlib\mIRC\Map.hpp
+		src\mlib\mIRC\Moo.hpp = src\mlib\mIRC\Moo.hpp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29AA2BB3-5DD2-46FE-B1B9-03CEB7E74144}.Debug|Win32.ActiveCfg = Debug|Win32
+		{29AA2BB3-5DD2-46FE-B1B9-03CEB7E74144}.Debug|Win32.Build.0 = Debug|Win32
+		{29AA2BB3-5DD2-46FE-B1B9-03CEB7E74144}.Release|Win32.ActiveCfg = Release|Win32
+		{29AA2BB3-5DD2-46FE-B1B9-03CEB7E74144}.Release|Win32.Build.0 = Release|Win32
+		{524AFB38-383C-48C1-A302-90C14FE7886B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{524AFB38-383C-48C1-A302-90C14FE7886B}.Debug|Win32.Build.0 = Debug|Win32
+		{524AFB38-383C-48C1-A302-90C14FE7886B}.Release|Win32.ActiveCfg = Release|Win32
+		{524AFB38-383C-48C1-A302-90C14FE7886B}.Release|Win32.Build.0 = Release|Win32
+		{1BD3D7D9-A2D1-497C-A235-19696D162E66}.Debug|Win32.ActiveCfg = Release|Win32
+		{1BD3D7D9-A2D1-497C-A235-19696D162E66}.Release|Win32.ActiveCfg = Release|Win32
+		{74E8FD64-950C-425E-B4DF-82ED0BB57FFF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74E8FD64-950C-425E-B4DF-82ED0BB57FFF}.Debug|Win32.Build.0 = Debug|Win32
+		{74E8FD64-950C-425E-B4DF-82ED0BB57FFF}.Release|Win32.ActiveCfg = Release|Win32
+		{74E8FD64-950C-425E-B4DF-82ED0BB57FFF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29AA2BB3-5DD2-46FE-B1B9-03CEB7E74144} = {5895FB9D-8234-4E84-A704-3FB849561343}
+		{1BD3D7D9-A2D1-497C-A235-19696D162E66} = {99D5EB91-3875-4C07-8870-0814C70DDAEF}
+		{524AFB38-383C-48C1-A302-90C14FE7886B} = {99D5EB91-3875-4C07-8870-0814C70DDAEF}
+		{5B9F53DA-C7CE-4B8F-B25F-AE80FFBF10A3} = {B3248254-1A95-4ED5-A5B4-B556BAC88287}
+		{044D0C73-AB41-4652-B7FB-7EB2D5CBABE1} = {B3248254-1A95-4ED5-A5B4-B556BAC88287}
+		{A3246FF9-A597-4B7D-A6D9-14A5D6D72869} = {5B9F53DA-C7CE-4B8F-B25F-AE80FFBF10A3}
+		{74E8FD64-950C-425E-B4DF-82ED0BB57FFF} = {5B9F53DA-C7CE-4B8F-B25F-AE80FFBF10A3}
+		{44C3C3E9-05E3-4C88-8812-64B5681BBE9C} = {5B9F53DA-C7CE-4B8F-B25F-AE80FFBF10A3}
+		{054DA7DE-6E9E-40DF-A2E9-8EA68E15426C} = {5B9F53DA-C7CE-4B8F-B25F-AE80FFBF10A3}
+		{B2001935-BDFE-4A45-9B3B-1C0596A8D249} = {A3246FF9-A597-4B7D-A6D9-14A5D6D72869}
+		{23A7F338-7A32-4EC0-B5FD-1AD5E59B4548} = {44C3C3E9-05E3-4C88-8812-64B5681BBE9C}
+		{87184500-EA71-45E9-B2D7-4B6C0AD1563B} = {054DA7DE-6E9E-40DF-A2E9-8EA68E15426C}
+		{0031810E-F08C-4D50-81E6-F7C642CA4BB0} = {044D0C73-AB41-4652-B7FB-7EB2D5CBABE1}
+	EndGlobalSection
+EndGlobal
