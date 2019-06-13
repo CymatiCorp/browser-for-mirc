@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="mchef_release"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;MCEF_EXPORTS"
+	/>
+	<Tool
+		Name="VCCustomBuildTool"
+		Description=""
+		CommandLine=""
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		IgnoreDefaultLibraryNames="MSVCPRT;"
+		ModuleDefinitionFile="&quot;$(ProjectDir)\Misc\mChef.def&quot;"
+	/>
+</VisualStudioPropertySheet>

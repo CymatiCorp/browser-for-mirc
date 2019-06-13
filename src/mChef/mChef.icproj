@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="11.1"
+	Name="mChef"
+	ProjectGUID="{A92F4FFD-AC24-42DF-AB15-B22D7351DB48}"
+	VCNestedProjectGUID="{29AA2BB3-5DD2-46FE-B1B9-03CEB7E74144}"
+	VCNestedProjectFileName="mChef.vcproj">
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32">
+			<Tool
+				Name="CppCmplrTool"
+				WarningLevel="1000"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32">
+			<Tool
+				Name="CppCmplrTool"
+				WarningLevel="1000"/>
+		</Configuration>
+	</Configurations>
+	<Files/>
+</VisualStudioProject>

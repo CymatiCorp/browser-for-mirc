@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="mchef_debug"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;MCEF_EXPORTS;CHEF_DEBUG"
+	/>
+	<Tool
+		Name="VCCustomBuildTool"
+		CommandLine=""
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		IgnoreDefaultLibraryNames="MSVCPRT;"
+		ModuleDefinitionFile="&quot;$(ProjectDir)\Misc\mChef.def&quot;"
+	/>
+	<Tool
+		Name="VCPostBuildEventTool"
+		CommandLine=""
+	/>
+</VisualStudioPropertySheet>
